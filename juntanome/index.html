@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tabela JS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+    </style>
+    <script>
+        function somar() {
+            primeironome = document.getElementById("primeironome").value;
+            sobrenome = document.getElementById("sobrenome").value;
+            nomecompleto = (primeironome) +" " + (sobrenome);
+            document.getElementById("nomecompleto").value = nomecompleto;
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Tabela Java Script</h1>
+    <div>
+        <h2>Programa para Contatenar Nome com Sobrenome</h2><br>
+        <label for="name"></label>
+        <input  id="primeironome"class="label"type="text" placeholder="Nome"><br><br>
+        <label for="sobrenome"></label>
+        <input  id="sobrenome"class="label" type="text"  placeholder="Sobrenome"><br><br>
+        <label  for="button"></label>
+        <input id="nomecompleto" type="text" placeholder="Nome Completo" readonly><br><br><br><br>
+        <button id="button" onclick="somar();" value="Somar">Concatenar</button>
+    </div>
+  
+</body>
+
+</html>

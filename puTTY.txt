@@ -1,0 +1,7 @@
+ip: 54.210.228.140 [0-65536]
+
+usuário: ROOT
+
+senha: escola@bueno
+
+porta do servidor: 2222
